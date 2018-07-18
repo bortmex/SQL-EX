@@ -1,2 +1,2 @@
-# SQL_EX
+# SQL-EX
 My solutions for the site http://www.sql-ex.ru
