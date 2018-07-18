@@ -1,0 +1,1 @@
+SELECT distinct p.type, l.model, l.speed FROM Laptop l join Product p on p.model=l.model WHERE speed < ANY (SELECT MIN(speed) FROM PC pc);
