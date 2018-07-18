@@ -1,0 +1,1 @@
+SELECT model, ram, screen FROM Laptop where price > 1000;

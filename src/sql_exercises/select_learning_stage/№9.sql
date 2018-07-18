@@ -1,0 +1,1 @@
+SELECT distinct p.maker FROM Product p join PC on p.model=pc.model WHERE pc.speed>=450;

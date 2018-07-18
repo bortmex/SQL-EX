@@ -1,0 +1,1 @@
+SELECT model, price FROM Printer WHERE price in (SELECT max(price) FROM Printer);

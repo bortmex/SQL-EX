@@ -1,0 +1,1 @@
+SELECT DISTINCT p.maker, l.speed FROM Product p JOIN Laptop l on p.model=l.model where l.hd >= 10;
