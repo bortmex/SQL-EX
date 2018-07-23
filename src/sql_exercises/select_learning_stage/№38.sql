@@ -1,0 +1,1 @@
+SELECT t.country FROM (SELECT DISTINCT type, country FROM Classes)t GROUP BY country HAVING COUNT(t.type)>1;
