@@ -1,0 +1,1 @@
+SELECTSELECT maker, COUNT(model) Count_Model FROM Product WHERE type='pc' GROUP BY maker HAVING COUNT(model)>2;

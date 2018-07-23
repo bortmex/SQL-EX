@@ -1,0 +1,1 @@
+SELECT DISTINCT c.class, c.country FROM Classes c LEFT JOIN ships sh on c.class=sh.class WHERE c.bore >= 16;

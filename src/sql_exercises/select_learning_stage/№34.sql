@@ -1,0 +1,1 @@
+SELECT sh.name FROM Ships sh JOIN Classes c on sh.class=c.class WHERE c.displacement>35000 AND sh.launched>=1922 AND c.type='bb';

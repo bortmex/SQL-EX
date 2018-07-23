@@ -1,0 +1,2 @@
+WITH maker_hd_pc AS (SELECT p.maker, AVG(pc.hd)hd FROM Product p JOIN pc PC ON p.model=pc.model GROUP BY p.maker)
+SELECT * FROM maker_hd_pc WHERE maker IN (SELECT maker FROM Product WHERE type='Printer');
