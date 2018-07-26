@@ -1,0 +1,1 @@
+SELECT sh.class, sh.name, c.country FROM Ships sh JOIN Classes c ON sh.class=c.class WHERE c.numGuns>=10;

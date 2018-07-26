@@ -1,0 +1,1 @@
+SELECT b.name FROM Battles b WHERE YEAR(b.date) NOT IN (SELECT launched FROM Ships WHERE launched = YEAR(b.date));
